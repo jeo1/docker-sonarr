@@ -14,7 +14,7 @@ services:
       - "TZ=${TIMEZONE}"
     restart: always
     ports:
-      - "${EXTERNAL_SONARR_PORT}:7878"
+      - "${EXTERNAL_SONARR_PORT}:8989"
       - "${EXTERNAL_QBITTORRENT_PORT}:8080"
 
   qbittorrent:
